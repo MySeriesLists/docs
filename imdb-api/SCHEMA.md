@@ -1,0 +1,329 @@
+Type: `object`
+
+<i id="">path: #</i>
+
+**_Properties_**
+
+ - <b id="#/properties/Movies">Movies</b> `required`
+	 - Type: `object`
+	 - <i id="/properties/Movies">path: #/properties/Movies</i>
+	 - **_Properties_**
+		 - <b id="#/properties/Movies/properties/imdbId">imdbId</b> `required`
+			 - Type: `object`
+			 - <i id="/properties/Movies/properties/imdbId">path: #/properties/Movies/properties/imdbId</i>
+			 - **_Properties_**
+				 - <b id="#/properties/Movies/properties/imdbId/properties/type">type</b> `required`
+					 - Type: `string`
+					 - <i id="/properties/Movies/properties/imdbId/properties/type">path: #/properties/Movies/properties/imdbId/properties/type</i>
+				 - <b id="#/properties/Movies/properties/imdbId/properties/required">required</b> `required`
+					 - Type: `boolean`
+					 - <i id="/properties/Movies/properties/imdbId/properties/required">path: #/properties/Movies/properties/imdbId/properties/required</i>
+				 - <b id="#/properties/Movies/properties/imdbId/properties/unique">unique</b> `required`
+					 - Type: `boolean`
+					 - <i id="/properties/Movies/properties/imdbId/properties/unique">path: #/properties/Movies/properties/imdbId/properties/unique</i>
+		 - <b id="#/properties/Movies/properties/rank">rank</b> `required`
+			 - Type: `object`
+			 - <i id="/properties/Movies/properties/rank">path: #/properties/Movies/properties/rank</i>
+			 - **_Properties_**
+				 - <b id="#/properties/Movies/properties/rank/properties/type">type</b> `required`
+					 - Type: `string`
+					 - <i id="/properties/Movies/properties/rank/properties/type">path: #/properties/Movies/properties/rank/properties/type</i>
+				 - <b id="#/properties/Movies/properties/rank/properties/required">required</b> `required`
+					 - Type: `boolean`
+					 - <i id="/properties/Movies/properties/rank/properties/required">path: #/properties/Movies/properties/rank/properties/required</i>
+				 - <b id="#/properties/Movies/properties/rank/properties/unique">unique</b> `required`
+					 - Type: `boolean`
+					 - <i id="/properties/Movies/properties/rank/properties/unique">path: #/properties/Movies/properties/rank/properties/unique</i>
+		 - <b id="#/properties/Movies/properties/title">title</b> `required`
+			 - Type: `object`
+			 - <i id="/properties/Movies/properties/title">path: #/properties/Movies/properties/title</i>
+			 - **_Properties_**
+				 - <b id="#/properties/Movies/properties/title/properties/type">type</b> `required`
+					 - Type: `string`
+					 - <i id="/properties/Movies/properties/title/properties/type">path: #/properties/Movies/properties/title/properties/type</i>
+				 - <b id="#/properties/Movies/properties/title/properties/required">required</b> `required`
+					 - Type: `boolean`
+					 - <i id="/properties/Movies/properties/title/properties/required">path: #/properties/Movies/properties/title/properties/required</i>
+				 - <b id="#/properties/Movies/properties/title/properties/unique">unique</b> `required`
+					 - Type: `boolean`
+					 - <i id="/properties/Movies/properties/title/properties/unique">path: #/properties/Movies/properties/title/properties/unique</i>
+		 - <b id="#/properties/Movies/properties/types">types</b> `required`
+			 - Type: `object`
+			 - <i id="/properties/Movies/properties/types">path: #/properties/Movies/properties/types</i>
+			 - **_Properties_**
+				 - <b id="#/properties/Movies/properties/types/properties/type">type</b> `required`
+					 - Type: `string`
+					 - <i id="/properties/Movies/properties/types/properties/type">path: #/properties/Movies/properties/types/properties/type</i>
+				 - <b id="#/properties/Movies/properties/types/properties/required">required</b> `required`
+					 - Type: `boolean`
+					 - <i id="/properties/Movies/properties/types/properties/required">path: #/properties/Movies/properties/types/properties/required</i>
+				 - <b id="#/properties/Movies/properties/types/properties/unique">unique</b> `required`
+					 - Type: `boolean`
+					 - <i id="/properties/Movies/properties/types/properties/unique">path: #/properties/Movies/properties/types/properties/unique</i>
+		 - <b id="#/properties/Movies/properties/genre">genre</b> `required`
+			 - Type: `object`
+			 - <i id="/properties/Movies/properties/genre">path: #/properties/Movies/properties/genre</i>
+			 - **_Properties_**
+				 - <b id="#/properties/Movies/properties/genre/properties/type">type</b> `required`
+					 - Type: `string`
+					 - <i id="/properties/Movies/properties/genre/properties/type">path: #/properties/Movies/properties/genre/properties/type</i>
+				 - <b id="#/properties/Movies/properties/genre/properties/required">required</b> `required`
+					 - Type: `boolean`
+					 - <i id="/properties/Movies/properties/genre/properties/required">path: #/properties/Movies/properties/genre/properties/required</i>
+				 - <b id="#/properties/Movies/properties/genre/properties/unique">unique</b> `required`
+					 - Type: `boolean`
+					 - <i id="/properties/Movies/properties/genre/properties/unique">path: #/properties/Movies/properties/genre/properties/unique</i>
+		 - <b id="#/properties/Movies/properties/description">description</b> `required`
+			 - Type: `object`
+			 - <i id="/properties/Movies/properties/description">path: #/properties/Movies/properties/description</i>
+			 - **_Properties_**
+				 - <b id="#/properties/Movies/properties/description/properties/type">type</b> `required`
+					 - Type: `string`
+					 - <i id="/properties/Movies/properties/description/properties/type">path: #/properties/Movies/properties/description/properties/type</i>
+				 - <b id="#/properties/Movies/properties/description/properties/required">required</b> `required`
+					 - Type: `boolean`
+					 - <i id="/properties/Movies/properties/description/properties/required">path: #/properties/Movies/properties/description/properties/required</i>
+				 - <b id="#/properties/Movies/properties/description/properties/unique">unique</b> `required`
+					 - Type: `boolean`
+					 - <i id="/properties/Movies/properties/description/properties/unique">path: #/properties/Movies/properties/description/properties/unique</i>
+		 - <b id="#/properties/Movies/properties/year">year</b> `required`
+			 - Type: `object`
+			 - <i id="/properties/Movies/properties/year">path: #/properties/Movies/properties/year</i>
+			 - **_Properties_**
+				 - <b id="#/properties/Movies/properties/year/properties/type">type</b> `required`
+					 - Type: `string`
+					 - <i id="/properties/Movies/properties/year/properties/type">path: #/properties/Movies/properties/year/properties/type</i>
+				 - <b id="#/properties/Movies/properties/year/properties/required">required</b> `required`
+					 - Type: `boolean`
+					 - <i id="/properties/Movies/properties/year/properties/required">path: #/properties/Movies/properties/year/properties/required</i>
+				 - <b id="#/properties/Movies/properties/year/properties/unique">unique</b> `required`
+					 - Type: `boolean`
+					 - <i id="/properties/Movies/properties/year/properties/unique">path: #/properties/Movies/properties/year/properties/unique</i>
+		 - <b id="#/properties/Movies/properties/runTime">runTime</b> `required`
+			 - Type: `object`
+			 - <i id="/properties/Movies/properties/runTime">path: #/properties/Movies/properties/runTime</i>
+			 - **_Properties_**
+				 - <b id="#/properties/Movies/properties/runTime/properties/type">type</b> `required`
+					 - Type: `string`
+					 - <i id="/properties/Movies/properties/runTime/properties/type">path: #/properties/Movies/properties/runTime/properties/type</i>
+				 - <b id="#/properties/Movies/properties/runTime/properties/required">required</b> `required`
+					 - Type: `boolean`
+					 - <i id="/properties/Movies/properties/runTime/properties/required">path: #/properties/Movies/properties/runTime/properties/required</i>
+				 - <b id="#/properties/Movies/properties/runTime/properties/unique">unique</b> `required`
+					 - Type: `boolean`
+					 - <i id="/properties/Movies/properties/runTime/properties/unique">path: #/properties/Movies/properties/runTime/properties/unique</i>
+		 - <b id="#/properties/Movies/properties/rating">rating</b> `required`
+			 - Type: `object`
+			 - <i id="/properties/Movies/properties/rating">path: #/properties/Movies/properties/rating</i>
+			 - **_Properties_**
+				 - <b id="#/properties/Movies/properties/rating/properties/type">type</b> `required`
+					 - Type: `string`
+					 - <i id="/properties/Movies/properties/rating/properties/type">path: #/properties/Movies/properties/rating/properties/type</i>
+				 - <b id="#/properties/Movies/properties/rating/properties/required">required</b> `required`
+					 - Type: `boolean`
+					 - <i id="/properties/Movies/properties/rating/properties/required">path: #/properties/Movies/properties/rating/properties/required</i>
+				 - <b id="#/properties/Movies/properties/rating/properties/unique">unique</b> `required`
+					 - Type: `boolean`
+					 - <i id="/properties/Movies/properties/rating/properties/unique">path: #/properties/Movies/properties/rating/properties/unique</i>
+		 - <b id="#/properties/Movies/properties/votes">votes</b> `required`
+			 - Type: `object`
+			 - <i id="/properties/Movies/properties/votes">path: #/properties/Movies/properties/votes</i>
+			 - **_Properties_**
+				 - <b id="#/properties/Movies/properties/votes/properties/type">type</b> `required`
+					 - Type: `string`
+					 - <i id="/properties/Movies/properties/votes/properties/type">path: #/properties/Movies/properties/votes/properties/type</i>
+				 - <b id="#/properties/Movies/properties/votes/properties/required">required</b> `required`
+					 - Type: `boolean`
+					 - <i id="/properties/Movies/properties/votes/properties/required">path: #/properties/Movies/properties/votes/properties/required</i>
+				 - <b id="#/properties/Movies/properties/votes/properties/unique">unique</b> `required`
+					 - Type: `boolean`
+					 - <i id="/properties/Movies/properties/votes/properties/unique">path: #/properties/Movies/properties/votes/properties/unique</i>
+		 - <b id="#/properties/Movies/properties/cover">cover</b> `required`
+			 - Type: `object`
+			 - <i id="/properties/Movies/properties/cover">path: #/properties/Movies/properties/cover</i>
+			 - **_Properties_**
+				 - <b id="#/properties/Movies/properties/cover/properties/type">type</b> `required`
+					 - Type: `string`
+					 - <i id="/properties/Movies/properties/cover/properties/type">path: #/properties/Movies/properties/cover/properties/type</i>
+				 - <b id="#/properties/Movies/properties/cover/properties/required">required</b> `required`
+					 - Type: `boolean`
+					 - <i id="/properties/Movies/properties/cover/properties/required">path: #/properties/Movies/properties/cover/properties/required</i>
+				 - <b id="#/properties/Movies/properties/cover/properties/unique">unique</b> `required`
+					 - Type: `boolean`
+					 - <i id="/properties/Movies/properties/cover/properties/unique">path: #/properties/Movies/properties/cover/properties/unique</i>
+		 - <b id="#/properties/Movies/properties/images">images</b> `required`
+			 - Type: `array`
+			 - <i id="/properties/Movies/properties/images">path: #/properties/Movies/properties/images</i>
+				 - **_Items_**
+				 - Type: `object`
+				 - <i id="/properties/Movies/properties/images/items">path: #/properties/Movies/properties/images/items</i>
+				 - **_Properties_**
+					 - <b id="#/properties/Movies/properties/images/items/properties/type">type</b> `required`
+						 - Type: `string`
+						 - <i id="/properties/Movies/properties/images/items/properties/type">path: #/properties/Movies/properties/images/items/properties/type</i>
+					 - <b id="#/properties/Movies/properties/images/items/properties/required">required</b> `required`
+						 - Type: `boolean`
+						 - <i id="/properties/Movies/properties/images/items/properties/required">path: #/properties/Movies/properties/images/items/properties/required</i>
+					 - <b id="#/properties/Movies/properties/images/items/properties/unique">unique</b> `required`
+						 - Type: `boolean`
+						 - <i id="/properties/Movies/properties/images/items/properties/unique">path: #/properties/Movies/properties/images/items/properties/unique</i>
+			 - 
+
+
+Type: `object`
+
+<i id="">path: #</i>
+
+&#36;schema: [http://json-schema.org/draft-04/schema#](http://json-schema.org/draft-04/schema#)
+
+**_Properties_**
+
+ - <b id="#/properties/actors">actors</b> `required`
+	 - Type: `object`
+	 - <i id="/properties/actors">path: #/properties/actors</i>
+	 - **_Properties_**
+		 - <b id="#/properties/actors/properties/imdbId">imdbId</b> `required`
+			 - Type: `object`
+			 - <i id="/properties/actors/properties/imdbId">path: #/properties/actors/properties/imdbId</i>
+			 - **_Properties_**
+				 - <b id="#/properties/actors/properties/imdbId/properties/type">type</b> `required`
+					 - Type: `string`
+					 - <i id="/properties/actors/properties/imdbId/properties/type">path: #/properties/actors/properties/imdbId/properties/type</i>
+				 - <b id="#/properties/actors/properties/imdbId/properties/required">required</b> `required`
+					 - Type: `boolean`
+					 - <i id="/properties/actors/properties/imdbId/properties/required">path: #/properties/actors/properties/imdbId/properties/required</i>
+				 - <b id="#/properties/actors/properties/imdbId/properties/unique">unique</b> `required`
+					 - Type: `boolean`
+					 - <i id="/properties/actors/properties/imdbId/properties/unique">path: #/properties/actors/properties/imdbId/properties/unique</i>
+		 - <b id="#/properties/actors/properties/name">name</b> `required`
+			 - Type: `object`
+			 - <i id="/properties/actors/properties/name">path: #/properties/actors/properties/name</i>
+			 - **_Properties_**
+				 - <b id="#/properties/actors/properties/name/properties/type">type</b> `required`
+					 - Type: `string`
+					 - <i id="/properties/actors/properties/name/properties/type">path: #/properties/actors/properties/name/properties/type</i>
+				 - <b id="#/properties/actors/properties/name/properties/required">required</b> `required`
+					 - Type: `boolean`
+					 - <i id="/properties/actors/properties/name/properties/required">path: #/properties/actors/properties/name/properties/required</i>
+				 - <b id="#/properties/actors/properties/name/properties/unique">unique</b> `required`
+					 - Type: `boolean`
+					 - <i id="/properties/actors/properties/name/properties/unique">path: #/properties/actors/properties/name/properties/unique</i>
+		 - <b id="#/properties/actors/properties/cover">cover</b> `required`
+			 - Type: `object`
+			 - <i id="/properties/actors/properties/cover">path: #/properties/actors/properties/cover</i>
+			 - **_Properties_**
+				 - <b id="#/properties/actors/properties/cover/properties/type">type</b> `required`
+					 - Type: `string`
+					 - <i id="/properties/actors/properties/cover/properties/type">path: #/properties/actors/properties/cover/properties/type</i>
+				 - <b id="#/properties/actors/properties/cover/properties/required">required</b> `required`
+					 - Type: `boolean`
+					 - <i id="/properties/actors/properties/cover/properties/required">path: #/properties/actors/properties/cover/properties/required</i>
+				 - <b id="#/properties/actors/properties/cover/properties/unique">unique</b> `required`
+					 - Type: `boolean`
+					 - <i id="/properties/actors/properties/cover/properties/unique">path: #/properties/actors/properties/cover/properties/unique</i>
+		 - <b id="#/properties/actors/properties/bio">bio</b> `required`
+			 - Type: `object`
+			 - <i id="/properties/actors/properties/bio">path: #/properties/actors/properties/bio</i>
+			 - **_Properties_**
+				 - <b id="#/properties/actors/properties/bio/properties/type">type</b> `required`
+					 - Type: `string`
+					 - <i id="/properties/actors/properties/bio/properties/type">path: #/properties/actors/properties/bio/properties/type</i>
+				 - <b id="#/properties/actors/properties/bio/properties/required">required</b> `required`
+					 - Type: `boolean`
+					 - <i id="/properties/actors/properties/bio/properties/required">path: #/properties/actors/properties/bio/properties/required</i>
+				 - <b id="#/properties/actors/properties/bio/properties/unique">unique</b> `required`
+					 - Type: `boolean`
+					 - <i id="/properties/actors/properties/bio/properties/unique">path: #/properties/actors/properties/bio/properties/unique</i>
+		 - <b id="#/properties/actors/properties/birthDate">birthDate</b> `required`
+			 - Type: `object`
+			 - <i id="/properties/actors/properties/birthDate">path: #/properties/actors/properties/birthDate</i>
+			 - **_Properties_**
+				 - <b id="#/properties/actors/properties/birthDate/properties/type">type</b> `required`
+					 - Type: `string`
+					 - <i id="/properties/actors/properties/birthDate/properties/type">path: #/properties/actors/properties/birthDate/properties/type</i>
+				 - <b id="#/properties/actors/properties/birthDate/properties/required">required</b> `required`
+					 - Type: `boolean`
+					 - <i id="/properties/actors/properties/birthDate/properties/required">path: #/properties/actors/properties/birthDate/properties/required</i>
+				 - <b id="#/properties/actors/properties/birthDate/properties/unique">unique</b> `required`
+					 - Type: `boolean`
+					 - <i id="/properties/actors/properties/birthDate/properties/unique">path: #/properties/actors/properties/birthDate/properties/unique</i>
+		 - <b id="#/properties/actors/properties/deathDate">deathDate</b> `required`
+			 - Type: `object`
+			 - <i id="/properties/actors/properties/deathDate">path: #/properties/actors/properties/deathDate</i>
+			 - **_Properties_**
+				 - <b id="#/properties/actors/properties/deathDate/properties/type">type</b> `required`
+					 - Type: `string`
+					 - <i id="/properties/actors/properties/deathDate/properties/type">path: #/properties/actors/properties/deathDate/properties/type</i>
+				 - <b id="#/properties/actors/properties/deathDate/properties/required">required</b> `required`
+					 - Type: `boolean`
+					 - <i id="/properties/actors/properties/deathDate/properties/required">path: #/properties/actors/properties/deathDate/properties/required</i>
+				 - <b id="#/properties/actors/properties/deathDate/properties/unique">unique</b> `required`
+					 - Type: `boolean`
+					 - <i id="/properties/actors/properties/deathDate/properties/unique">path: #/properties/actors/properties/deathDate/properties/unique</i>
+		 - <b id="#/properties/actors/properties/birthPlace">birthPlace</b> `required`
+			 - Type: `object`
+			 - <i id="/properties/actors/properties/birthPlace">path: #/properties/actors/properties/birthPlace</i>
+			 - **_Properties_**
+				 - <b id="#/properties/actors/properties/birthPlace/properties/type">type</b> `required`
+					 - Type: `string`
+					 - <i id="/properties/actors/properties/birthPlace/properties/type">path: #/properties/actors/properties/birthPlace/properties/type</i>
+				 - <b id="#/properties/actors/properties/birthPlace/properties/required">required</b> `required`
+					 - Type: `boolean`
+					 - <i id="/properties/actors/properties/birthPlace/properties/required">path: #/properties/actors/properties/birthPlace/properties/required</i>
+				 - <b id="#/properties/actors/properties/birthPlace/properties/unique">unique</b> `required`
+					 - Type: `boolean`
+					 - <i id="/properties/actors/properties/birthPlace/properties/unique">path: #/properties/actors/properties/birthPlace/properties/unique</i>
+		 - <b id="#/properties/actors/properties/filmography">filmography</b> `required`
+			 - Type: `object`
+			 - <i id="/properties/actors/properties/filmography">path: #/properties/actors/properties/filmography</i>
+			 - **_Properties_**
+				 - <b id="#/properties/actors/properties/filmography/properties/type">type</b> `required`
+					 - Type: `string`
+					 - <i id="/properties/actors/properties/filmography/properties/type">path: #/properties/actors/properties/filmography/properties/type</i>
+				 - <b id="#/properties/actors/properties/filmography/properties/required">required</b> `required`
+					 - Type: `boolean`
+					 - <i id="/properties/actors/properties/filmography/properties/required">path: #/properties/actors/properties/filmography/properties/required</i>
+				 - <b id="#/properties/actors/properties/filmography/properties/unique">unique</b> `required`
+					 - Type: `boolean`
+					 - <i id="/properties/actors/properties/filmography/properties/unique">path: #/properties/actors/properties/filmography/properties/unique</i>
+		 - <b id="#/properties/actors/properties/awards">awards</b> `required`
+			 - Type: `object`
+			 - <i id="/properties/actors/properties/awards">path: #/properties/actors/properties/awards</i>
+			 - **_Properties_**
+				 - <b id="#/properties/actors/properties/awards/properties/type">type</b> `required`
+					 - Type: `string`
+					 - <i id="/properties/actors/properties/awards/properties/type">path: #/properties/actors/properties/awards/properties/type</i>
+				 - <b id="#/properties/actors/properties/awards/properties/required">required</b> `required`
+					 - Type: `boolean`
+					 - <i id="/properties/actors/properties/awards/properties/required">path: #/properties/actors/properties/awards/properties/required</i>
+				 - <b id="#/properties/actors/properties/awards/properties/unique">unique</b> `required`
+					 - Type: `boolean`
+					 - <i id="/properties/actors/properties/awards/properties/unique">path: #/properties/actors/properties/awards/properties/unique</i>
+		 - <b id="#/properties/actors/properties/nominations">nominations</b> `required`
+			 - Type: `object`
+			 - <i id="/properties/actors/properties/nominations">path: #/properties/actors/properties/nominations</i>
+			 - **_Properties_**
+				 - <b id="#/properties/actors/properties/nominations/properties/type">type</b> `required`
+					 - Type: `string`
+					 - <i id="/properties/actors/properties/nominations/properties/type">path: #/properties/actors/properties/nominations/properties/type</i>
+				 - <b id="#/properties/actors/properties/nominations/properties/required">required</b> `required`
+					 - Type: `boolean`
+					 - <i id="/properties/actors/properties/nominations/properties/required">path: #/properties/actors/properties/nominations/properties/required</i>
+				 - <b id="#/properties/actors/properties/nominations/properties/unique">unique</b> `required`
+					 - Type: `boolean`
+					 - <i id="/properties/actors/properties/nominations/properties/unique">path: #/properties/actors/properties/nominations/properties/unique</i>
+		 - <b id="#/properties/actors/properties/images">images</b> `required`
+			 - Type: `object`
+			 - <i id="/properties/actors/properties/images">path: #/properties/actors/properties/images</i>
+			 - **_Properties_**
+				 - <b id="#/properties/actors/properties/images/properties/type">type</b> `required`
+					 - Type: `string`
+					 - <i id="/properties/actors/properties/images/properties/type">path: #/properties/actors/properties/images/properties/type</i>
+				 - <b id="#/properties/actors/properties/images/properties/required">required</b> `required`
+					 - Type: `boolean`
+					 - <i id="/properties/actors/properties/images/properties/required">path: #/properties/actors/properties/images/properties/required</i>
+				 - <b id="#/properties/actors/properties/images/properties/unique">unique</b> `required`
+					 - Type: `boolean`
+					 - <i id="/properties/actors/properties/images/properties/unique">path: #/properties/actors/properties/images/properties/unique</i>
+
+_Generated with [json-schema-md-doc](https://brianwendt.github.io/json-schema-md-doc/)_
